@@ -1,3 +1,55 @@
+body {
+    font-family: $sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1,h2,h3,h4,h5 {
+    font-family: $raleway;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+//Forms
+#{$all-text-inputs} {
+  border: 1px solid #f00;
+  padding: 10px;
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover} {
+  border: 1px solid #0f0;
+}
+
+#{$all-text-inputs-active} {
+  border: 1px solid #00f;
+}
+
+//Buttons
+#{$all-buttons} {
+  background-color: #f00;
+  padding: 10px;
+}
+
+#{$all-buttons-focus},
+#{$all-buttons-hover} {
+  background-color: #0f0;
+}
+
+#{$all-buttons-active} {
+  background-color: #00f;
+}
+
 nav {
     
     ul {
@@ -15,6 +67,6 @@ nav {
             color: $pink;
         }
     }
-    
+
 }
 
