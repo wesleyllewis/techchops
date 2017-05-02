@@ -13,14 +13,15 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            sass: {
-                files: [
-                    'assets/scss/*.scss'
-                ],
-                tasks: [
-                    'sass'
-                ]
-            },
+			sass: {
+
+				files: [
+					'assets/scss/**/*.scss'
+				],
+				tasks : [
+					'sass'
+				]
+			},
             scripts: {
             files: [
                 'assets/js/*.js'
