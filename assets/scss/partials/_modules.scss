@@ -10,10 +10,24 @@
 }
 .feature img {
     border-radius: $default-border-radius;
-    @include size(250px auto);
+    @include size(100% auto);
 }
 
 .customer img {
     border-radius: $default-border-radius;
     @include size(150px);
+}
+
+.testimonials {
+    background: $orange;
+    text-align: center;
+
+    .name {
+        display: block;
+    }
+
+    .quote {
+        font-style: italic;
+        font-family: $raleway;
+    }
 }

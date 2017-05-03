@@ -423,7 +423,8 @@ nav a {
     color: #d78a76; }
 
 .site-footer {
-  background: black; }
+  background: black;
+  text-align: center; }
 
 .site-title {
   color: #f2a541; }
@@ -441,10 +442,85 @@ nav a {
     content: '\f0e1'; }
 
 .site-header {
-  background: black; }
+  background: black;
+  text-align: center; }
+
+.site-title {
+  color: grey; }
+
+.header-nav ul {
+  margin: 0;
+  padding: 0; }
 
 .header-nav a {
   color: #f3ca40; }
+
+.wrap {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media (min-width: 640px) {
+  .site-branding {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 640px) {
+  .header-nav {
+    width: 74.6987951807%;
+    float: right;
+    margin-right: 0;
+    padding-top: 40px; } }
+
+.features::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .features .feature {
+    width: 49.3975903614%;
+    float: left;
+    margin-right: 1.2048192771%; }
+    .features .feature:nth-of-type(even) {
+      float: right;
+      margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .features .feature {
+    width: 24.0963855422%;
+    float: left;
+    margin-right: 1.2048192771%; }
+    .features .feature:last-child {
+      float: right;
+      margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .content {
+    width: 66.265060241%;
+    float: left;
+    margin-right: 1.2048192771%; } }
+
+@media (min-width: 960px) {
+  .sidebar {
+    width: 32.5301204819%;
+    float: left;
+    margin-right: 1.2048192771%;
+    float: right;
+    margin-right: 0; } }
+
+@media (min-width: 960px) {
+  .testimonial {
+    width: 49.3975903614%;
+    float: left;
+    margin-right: 1.2048192771%;
+    margin-left: 25.3012048193%;
+    margin-right: 25.3012048193%; } }
 
 .hero .overlay {
   background: rgba(215, 138, 118, 0.7); }
@@ -458,9 +534,18 @@ nav a {
 .feature img {
   border-radius: 20px;
   height: auto;
-  width: 250px; }
+  width: 100%; }
 
 .customer img {
   border-radius: 20px;
   height: 150px;
   width: 150px; }
+
+.testimonials {
+  background: #f2a541;
+  text-align: center; }
+  .testimonials .name {
+    display: block; }
+  .testimonials .quote {
+    font-style: italic;
+    font-family: "Raleway", sans-serif; }

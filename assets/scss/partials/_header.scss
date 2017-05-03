@@ -1,6 +1,21 @@
 .site-header {
     background: black;
+    text-align: center;
 }
-.header-nav a {
-    color: $yellow;
+
+.site-title {
+    color: grey;
+}
+
+.header-nav {
+
+    ul {
+        margin: 0;
+        padding: 0;
+    } 
+
+    a {
+        color: $yellow;
+    }
+    
 }
